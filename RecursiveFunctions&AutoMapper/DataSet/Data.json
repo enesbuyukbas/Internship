@@ -1,0 +1,49 @@
+[
+  {
+    "id": 6,
+    "code": "0002",
+    "name": "Veteriner Hekimliği - DVD",
+    "isActive": true,
+    "idParentCategory": null,
+    "totalChild": 0,
+    "children": []
+  },
+  {
+    "id": 7,
+    "code": "0000",
+    "name": "Kitap",
+    "isActive": true,
+    "idParentCategory": null,
+    "totalChild": 1,
+    "children": [
+      {
+        "id": 1,
+        "code": "0001",
+        "name": "Veteriner Hekimliği - Kitap",
+        "isActive": true,
+        "idParentCategory": 7,
+        "totalChild": 1,
+        "children": [
+          {
+            "id": 3,
+            "code": "0007",
+            "name": "Bilgisayar Mühendisliği - DVD",
+            "isActive": true,
+            "idParentCategory": null,
+            "totalChild": 0,
+            "children": []
+          },
+          {
+            "id": 3,
+            "code": "0007",
+            "name": "Bilgisayar programcılığı - DVD",
+            "isActive": true,
+            "idParentCategory": null,
+            "totalChild": 0,
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+]
